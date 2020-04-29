@@ -1,11 +1,6 @@
-00.Python --------  思维导图
+### [Python数据类型](./Python数据类型)
 
-01.List       --------  List相关
+### [Django框架](./Django框架)
 
-02.Math    --------  Math相关
+### 
 
-03.Object  --------  Object相关
-
-04.Utility   --------  Utility相关
-
-基础专题
