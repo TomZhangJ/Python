@@ -1,6 +1,6 @@
 ## 进入python shell
 
-```
+```commad
 python manage.py shell
 ```
 
@@ -9,18 +9,22 @@ python manage.py shell
 ## 引入包和生成数据表数据
 
 ```python
-    from myApp.models import Grades,Students
-    from django.utils import timezone
-    from datetime import *
+from myApp.models import Grades,Students
+from django.utils import timezone
+from datetime import *
 
-    Grades.objects.all()
-    grade1 = Grades()
-    grade1.gname = "python04"
-    grade1.gdate = datetime(year=2017,month=7,day=17)
-    grade1.ggirlnum = 3
-    grade1.gboynum = 70
-    grade1.save()
+Grades.objects.all()
+grade1 = Grades()
+grade1.gname = "python04"
+grade1.gdate = datetime(year=2017,month=7,day=17)
+grade1.ggirlnum = 3
+grade1.gboynum = 70
+grade1.save()
 ```
+
+
+
+
 
 
 
