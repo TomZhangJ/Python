@@ -1,14 +1,10 @@
 # ***Django 开发流程***
 
-------
-
 ## 1、创建数据库
 
 ```
 create database kaishen;
 ```
-
-
 
 ## 2、创建工程
 
@@ -16,15 +12,11 @@ create database kaishen;
 django-admin startproject project
 ```
 
-
-
 ## 3、创建项目
 
 ```
 python manage.py startapp myApp
 ```
-
-
 
 ## 4、激活项目
 
@@ -40,8 +32,6 @@ python manage.py startapp myApp
         'myApp'
     ]
 ```
-
-
 
 ## 5、配置数据库
 
@@ -64,10 +54,6 @@ python manage.py startapp myApp
     }
 ```
 
-
-
-
-
 ## 6、创建模型类 
 
 ```python
@@ -82,19 +68,13 @@ python manage.py startapp myApp
             return self.gname
 ```
 
-
-
 ## 7、生成迁移文件
 
     python manage.py makemigrations
 
-
-
 ## 8、执行迁移
 
     python manage.py migrate
-
-
 
 ## 9、启动
 
@@ -102,17 +82,11 @@ python manage.py startapp myApp
     
     ## ip 可以省略，表示本机；port 默认8000；http://127.0.0.1:8000
 
-
-
 ## 10、配置站点
-
-
 
 ## 11、创建模板目录/项目模板目录
 
     /project/templates 和 /project/templates/myApp
-
-
 
 ## 12、配置模板路径
 
@@ -135,8 +109,6 @@ python manage.py startapp myApp
     ]
 ```
 
-
-
 ## 13、修改 /project/project/urls.py   
 
 ```python
@@ -146,8 +118,6 @@ python manage.py startapp myApp
         url(r'^',include('myApp.urls'))
     ]
 ```
-
-
 
 ## 14、创建  /project/myApp/urls.py
 
